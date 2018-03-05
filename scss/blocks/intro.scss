@@ -1,0 +1,53 @@
+.wrapper {
+    background: url("..//img/background-main.png") center center no-repeat;
+    background-size: cover;
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.intro__logo {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 40px;
+}
+.intro__link {
+    display: flex;
+    border: 2px solid #1c5bc3;
+    border-radius: 5px;
+    padding: 15px 20px 13px 20px;
+    align-items: center;
+    &:hover {
+        transition: 1s;
+        background-color: #1c5bc3;
+        .intro__text {
+            transition: 1s;
+            color: white;
+            cursor: pointer;
+        }
+        .intro__img {
+            background: url("..//img/main_icon.png");
+            width: 15px;
+            height: 14px;
+            transition: 1s;
+        }
+        cursor: pointer;
+    }
+}
+.intro__text {
+    border: none;
+    color: #1c5bc3;
+    font-size: 12px;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    background: none;
+    font-family: Roboto-Bold;
+    text-decoration: none;
+}
+.intro__img {
+    background: url("..//img/main_icon_blue.png");
+    width: 15px;
+    height: 14px;
+    margin-left: 8px;
+}

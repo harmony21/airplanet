@@ -1,0 +1,111 @@
+.cookies {
+    font-family: Roboto-LightItalic;
+    font-size: 18px;
+    margin-left: 100px;
+    margin-top: 50px;
+}
+.cookies__prev {
+    color: #497ccf;
+}
+.team__firstline {
+    display: flex;
+    justify-content: center;
+}
+.team__secondline {
+    display: flex;
+    justify-content: center;
+}
+.person {
+    width: 28%;
+    padding-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    &__name {
+        font-family: Roboto-Bold;
+        font-size: 18px;
+        margin-bottom: 10px;
+    }
+    &__function {
+        font-family: Roboto-Bold;
+        color: #4b73b5;
+        margin: 0;
+    }
+    &__desc {
+        font-family: Roboto-Light;
+        text-align: center;
+        font-size: 13px;
+        line-height: 1.5;
+    }
+}
+.partners__firstline {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    &--bmp {
+        background: url("..//img/bmp_gray.png") no-repeat; 
+        width:160px;
+        height: 30px;
+        &:hover {
+            cursor: pointer;
+            background: url("..//img/bmp_colour.png") no-repeat;
+            transition: 0.3s;
+        }
+    }
+    &--tetra {
+        background: url("..//img/tetra_gray.png") no-repeat;
+        width: 161px;
+        height: 64px;
+        &:hover {
+            cursor: pointer;
+            background: url("..//img/tetra_colour.png") no-repeat;
+            transition: 0.3s;
+        }
+    }
+    &--syberia {
+        background: url("..//img/siberia_gray.png") no-repeat;
+        width: 133px;
+        height: 64px;
+        &:hover {
+            cursor: pointer;
+            background: url("..//img/siberia_colour.png") no-repeat;
+            transition: 0.3s;
+        }
+    }
+}
+.partners__secondline {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 70px 0 100px 0;
+    &--oneair {
+        background: url("..//img/oneair_gray.png") no-repeat;
+        width: 141px;
+        height: 63px;
+        &:hover {
+            cursor: pointer;
+            background: url("..//img/oneair_colour.png") no-repeat;
+            transition: 0.3s;
+        }
+    }
+    &--bingair {
+        background: url("..//img/bingair_gray.png") no-repeat;
+        width: 46px;
+        height: 64px;
+        &:hover {
+            cursor: pointer;
+            background: url("..//img/bingair_colour.png") no-repeat;
+            transition: 0.3s;
+        }
+    }
+    &--ural {
+        background: url("..//img/ural_gray.png") no-repeat;
+        width: 82px;
+        height: 64px;
+        &:hover {
+            cursor: pointer;
+            background: url("..//img/ural_colour.png") no-repeat;
+            transition: 0.3s;
+        }
+    }
+}
